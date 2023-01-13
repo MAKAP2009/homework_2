@@ -1,0 +1,172 @@
+body {
+    margin: 0;
+    font-family: Montserrat;
+    color: #774E2E;
+	width: 100%;
+	display: block;
+    /* max-width: 100%; */
+}
+main {
+    padding: 0 20px;
+	width: 80%;display: block;margin: 0 auto;
+}
+header {
+    padding: 2em 0 20px;
+    margin-bottom: 2em;
+	width: 100%;display: block;
+}
+.container {
+display: block;
+    margin: 0 auto;
+    /* border: 2px solid black; */
+}
+.logo {
+display: inline-block;
+float: left;margin: 0;
+}
+nav {
+display: inline-block;
+width: auto;margin: 20px 0 0;
+}
+.logo img {
+height: 100%;
+}
+.menu {
+display: block;
+width: 90%;margin: 0 auto;
+text-align: center;height: 80px;
+}
+nav a {
+    color: #774E2E;
+    font-size: 25px;
+    font-weight: 600;
+    text-decoration: none;
+    letter-spacing: 0.2px;
+    margin-right: 50px;display: inline-block;
+}
+nav a:last-child {
+    margin-right: 0;
+}
+.main-top {
+width: 50%;
+}
+.about {
+    background-image: url(images/bg.png);
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: 575px 595px;
+	width: 80%;margin: 0 auto;display: block;
+}
+h1 {
+    font-size: 110px;
+    color: #F37F34;
+    font-weight: 800;
+    line-height: 100%;
+    margin-bottom: 50px;
+}
+h1 span {
+    color: #774E2E;
+}
+.main-top p {
+    font-weight: 500;
+    line-height: 24px;
+    width: 50%;
+}
+button {
+    height: 70px;
+    width: 340px;
+    background-color: #774E2E;
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: 0;
+}
+.sweets {
+background-color: #FFF9EA;
+    text-align: center;height: auto;padding: 2em 0 3em;display: block;
+    /* padding-bottom: 150px; */
+}
+.sweets h2 {
+    font-size: 72px;
+    color: #F37F34;
+    text-transform: uppercase;
+    /* margin-top: 150px; */
+    margin: 10px 0 20px;
+}
+h2 span {
+    color: #774E2E;
+}
+.sweets-item {
+    background-color: white;
+width: 30%;height: 500px;display: inline-block;vertical-align: top;
+
+    margin-right: 30px;
+}
+.sweets-item:last-child {
+    margin-right: 0;
+}
+h3 {
+    padding-top: 35px;
+    font-size: 24px;
+}
+.sweets-item p {
+    margin: 15px 20px 35px;
+    font-size: 16px;
+}
+.advice {
+    background-image: url(images/dog.png);
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: 575px 720px;
+    background-position-y: 0;
+    padding-bottom: 150px;
+}
+.porada {
+    padding-top: 40px;
+    margin-top: 150px;
+    width: 575px;
+    border: 0px solid rgb(144, 33, 33);
+}
+.porada h2 {
+    margin-top: 0;
+    font-size: 72px;
+    color: #F37F34;
+    text-transform: uppercase;
+}
+.porada p {
+    font-size: 16px;
+}
+li {
+    font-size: 16px;
+}
+footer {
+    width: 100%;
+    background-color: #774E2E;
+    color: white;display: block;
+}
+.footer {
+    display: block;width: 90%; margin: 0 auto;
+padding: 40px 0;
+}
+.footer-text {
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 47px;
+    letter-spacing: 0.01em;
+	display: inline-block;
+	width: 78%;vertical-align: top;
+}
+.footer-logo {
+width: 20%;
+text-align: left;
+display: inline-block;
+}
+.footer-logo img {
+height: 100%;
+width: auto;
+}
+
+@media screen and (max-width: 766px) {
+.header nav {
+display: none;
+}}
